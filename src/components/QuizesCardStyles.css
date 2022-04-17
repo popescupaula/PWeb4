@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+    text-align: center;
+    
+}
+
+.quizCard{
+    width: 330px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 2rem;
+    background-color: #6e6e6e;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.quizCard h1 {
+    font-size: 1.8rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.quizCard p {
+    font-size: 1.2rem;
+    color: #fff;
+}
